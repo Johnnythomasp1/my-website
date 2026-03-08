@@ -1,11 +1,12 @@
-function videoFunction(){document.getElementById("myComment").innerHTML += " A great vacation video";
-    
+function videoFunction() {
+            document.getElementById("myComment").innerHTML += "A great vacation video";
 }
 
 function emailMessage() {
-    document.getElementById("emailBox").innerHTML += " Please enter valid email address.";
+    document.getElementById("emailBox").innerHTML += "Please enter a valid email address";
+
 }
 
-function blankMessage(){
+function blankMessage() {
     document.getElementById("emailBox").innerHTML = "Email:";
 }
